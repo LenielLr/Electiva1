@@ -1,0 +1,178 @@
+body{
+    background: #ADA996;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+/* Sticky Footer fix */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+
+h1{ 
+    font-family: 'Arial', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    color: #2c3e50;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h5{
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    color: #2c3e50;
+    text-align: center;
+}
+
+
+/* Estilos generales para el breadcrumb */
+.breadcrumb {
+    background-color: transparent;  /* Fondo transparente */
+    padding: 10px 15px;              /* Agregamos padding para espacio interno */
+    margin: 0 0 20px 0;              /* Margen inferior para separarlo de otros elementos */
+    list-style: none;                /* Quitar los puntos de la lista */
+    font-size: 16px;                 /* Tamaño de fuente adecuado */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.breadcrumb-item {
+    display: inline-block;           /* Asegura que cada item esté en línea */
+    margin-right: 10px;              /* Espacio entre los elementos */
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    content: "›";                    /* Agregar un separador */
+    color: #999;                     /* Color gris para el separador */
+}
+
+.breadcrumb-item a {
+    color: black;                  /* Color azul de Bootstrap */
+    text-decoration: none;           /* Quitar subrayado */
+    transition: color 0.3s ease;     /* Transición suave al hacer hover */
+}
+
+.breadcrumb-item a:hover {
+    color: black;                  /* Color más oscuro al hacer hover */
+    text-decoration: underline;      /* Subrayado al hacer hover */
+}
+
+.breadcrumb-item.active {
+    color: #6c757d;                  /* Color gris para el item activo */
+}
+
+
+/* Estilo general del formulario */
+.form {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Etiquetas del formulario */
+.form_label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+/* Inputs y textarea */
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+textarea {
+    background-color: #f1f1f1;
+    color: #666;
+    cursor: not-allowed;
+}
+
+/* Checkbox */
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Botones */
+.btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilo de las secciones de ayuda */
+section {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos dentro de las secciones */
+h2 {
+    color: #2c3e50;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+/* Títulos dentro de las secciones */
+h2 {
+    color: #2c3e50;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+/* Párrafos dentro de las secciones de ayuda */
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Listado de preguntas frecuentes (FAQs) */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
