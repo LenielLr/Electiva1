@@ -1,0 +1,96 @@
+/* Estilos generales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+  background: #f4f6fb;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Encabezado */
+.header {
+  text-align: center;
+  padding: 2rem;
+  background: linear-gradient(135deg, #5c6bc0, #8e24aa);
+  color: white;
+  border-radius: 0 0 20px 20px;
+}
+
+.header h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Tarjetas de información */
+.info-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Secciones */
+section {
+  margin: 2rem;
+  padding: 1.5rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.objetivo {
+  background: #ede7f6;
+  border-left: 6px solid #673ab7;
+}
+
+.links a {
+  display: block;
+  margin: 0.5rem 0;
+  color: #5c6bc0;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+.tecnologias span {
+  display: inline-block;
+  background: #e0e0e0;
+  margin: 0.3rem;
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
+
+.proceso ol {
+  padding-left: 1.2rem;
+}
+
+.proceso li {
+  margin: 0.6rem 0;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #5c6bc0;
+  color: white;
+  margin-top: 2rem;
+  border-radius: 20px 20px 0 0;
+}
